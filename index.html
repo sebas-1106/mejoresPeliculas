@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js" defer></script>
+        <title>Las Mejores Películas de 2024</title>
+        <style>
+            /* En el fichero style.css teneis todos los enunciados de los estilos que debeis darle al proyecto */
+    
+            /* 
+                Modificad el texto de los selectores para que seleccione correctamente los elementos descritos, 
+                llevadlo al fichero style.css, enlazadlo correctamente y añadid los estilos que falten en base 
+                a los enunciados.
+                
+            */
+            /* Elementos con la clase pelicula-item {
+                border-radius: 5 px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            }
+            Etiqueta button que está dentro del elemento con la clase pelicula-item {
+                padding: 5px 10px;
+                cursor: pointer;
+                border-radius: 3 px;
+            } */
+        </style>
+</head>
+    <body>
+        <header>
+            <h1>Las mejores peliculas de 2024</h1>
+        </header>
+        <!-- Añadir aqui la estructura con las etiquetas faltantes
+        <!-Crear la lista de películas:
+            A continuación, crea una lista de películas dentro de un elemento <ul> (lista desordenada). 
+            El atributo identificador "peliculasLista" se debe usar para identificar esta lista de películas.*/ -->
+                <main>
+                    <ul id="peliculasLista">
+                        <li class=" peliculaItem"><span>Scary movie</span> <button onclick="eliminarPelicula (this)">eliminar</button></li>
+                        <li class=" peliculaItem"><span>Jeepers Creepers</span><button onclick="eliminarPelicula (this)"> eliminar</button></li>
+                        <li class=" peliculaItem"><span>Rapidos y furiosos 8</span><button onclick="eliminarPelicula (this)"> eliminar</button></li>
+                        <li class=" peliculaItem"><span>Toy Story 2</span><button onclick="eliminarPelicula (this)"> eliminar</button></li>
+                        <li class=" peliculaItem"><span>Tyler rake</span><button onclick="eliminarPelicula (this)"> eliminar</button></li>
+                    </ul>
+                </main>
+        
+        
+            <!-- /*Dentro de la lista, cada película estará representada como un ítem (<li>) con la clase "peliculaItem". 
+            En cada ítem, coloca el nombre de la película dentro de una etiqueta <span> y un botón (<button>) para eliminar la película. 
+    
+            El botón (<button>) debe tener un atributo onclick que ejecute la función eliminarPelicula(this). 
+            * "this" hace referencia al propio elemento "button". Debéis ponerlo tal cual:  	
+                <button onclick="eliminarPelicula(this)">Eliminar</button>*/ -->
+    
+            <!-- Valida el documento html y el fichero css y corrigelos.
+    
+            Adjunta en el proyecto una captura con las extensiones instaladas de tu VSCode.
+    
+            Describe brevemente las fases de desarrollo que has identificado en este proyecto 
+            en el fichero de texto fasesDesarrollo.txt
+            -->
+    
+        <!-- Podeis dejar aqui toda la logica de javascript o llevarlo a un fichero externo .js recordad que si lo haceis en la etiqueta head debeis utilizar defer -->
+        <script>
+            //Funcion para eliminar pelicula 
+            // la variable "boton" dentro de la función
+            // hace referencia al elemento que le pasemos por parametro en las etiquetas HTML
+            // function eliminarPelicula(boton) {
+            //     //Añadir lógica para eliminar el elemento li, que es el elemento padre del button
+            // }
+        </script>
+    
+</body>
+</html>
+
