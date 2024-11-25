@@ -1,0 +1,4 @@
+-despues de tener claro que se quiere realizar, empezamos a estructurar nuestro html
+-para aplicarle estilos y un toque de nuestros gustos enlazaremos una hoja de estilos css y verificamos si se estan aplicando correctamente los cambios
+-utilizaremos js para añadirle animaciones a nuestra pagina, modificar algun elemento mal escrito, eliminarlo etc que se pueden hacer
+- y por ultimo detallar que se realizarron correctamente los cambios.
