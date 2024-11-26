@@ -1,7 +1,8 @@
-let ul= document.getElementById("peliculasLista")
-let li= document.getElementsByClassName("peliculaItem");
-let boton= document.getElementsByTagName("button");
+// let ul= document.getElementById("peliculasLista")
+// let li= document.getElementsByClassName("peliculaItem");
+// let boton= document.getElementsByTagName("button");
 
 function eliminarPelicula(boton) {
-    boton.remove();
+    let elim= boton.parentNode;
+    elim.remove();
 }   
