@@ -22,10 +22,13 @@ function modificarDOM() {
     console.log(head);
     let item= document.getElementsByClassName("item");
     item[0].style.backgroundColor="red";
+    console.log("cambio color a")
     let lista= document.getElementById("lista")
     lista.style.marginBottom="10px";
+    console.log("margen abajo")
     let span= document.getElementsByTagName("span");
     span[0].innerHTML="CAMBIADO";
+    console.log("renombrado")
     item[item.length-1].remove();
     // item.parentNode;
     // item.remove();
