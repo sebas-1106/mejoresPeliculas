@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+   <form action="./sent.html" method="get" name="test" id="Formulario"> 
+    <label for="user-name">Nombre </label>
+
+    <input id="user-name"  type="text" placeholder="Introduce tu Nombre" maxlength="20">
+
+    <label for="user-lastname">Apellido</label>
+    <input id="user-lastname" type="text" placeholder="Introduce tu Apellido" maxlength="20">
+
+    <label for="user-email">Correo</label>
+    <input id="user-email" type="email" placeholder="Introduce tu correo"  >
+    
+    <label for="age">Edad</label>
+    <input type="number" id="age" max="100" min="12">
+
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Introduce tu contraseña" >
+
+    <label for="salary">Rango salarial</label>
+    <input type="range" id="salary" min="30" max="100">
+
+    <label for="comments">Comentario</label>
+    <textarea id="comments" placeholder="Añade un Comentario" minlength="10" maxlength="150"></textarea>
+
+    <label for="fecha">Fecha: </label>
+    <input type="date" id="fecha">
+
+    <label for="politicas">Aceptar politics de privacidad</label>
+    <input type="checkbox" id="politicas" checked="checked">
+
+    <label>Rango de edad</label>
+    18-24
+    <input type="radio" name="age-range" value="18-24">
+    18-34
+    <input type="radio" name="age-range" value="18-34">
+
+    <label for="hora">Hora: </label>
+    <input type="time" id="hora" min="08:30" max="15:00">
+
+    <input type="button" value="Enviar">
+    <button type="submit">Enviar</button>
+</form>
+
+    <h2>Tarea para la salchipapa</h2>
+    <form action="index.html" id="form_salchipapa">
+    <label for="name">Nombre </label>
+
+    <input id="name"  type="text" placeholder="Introduce tu Nombre" maxlength="20">
+
+    <label for="email">Correo</label>
+    <input id="email" type="email" placeholder="Introduce tu correo" >
+
+    <label for="cantidad_entradas">Cantidad de entradas</label>
+    <input type="number" id="cantidad_entradas">
+
+    <label for="fecha_evento">Fecha del evento</label>
+    <input type="date" id="fecha_evento">
+
+    <label for="terminos_condiciones">Aceptar terminos y condiciones</label>
+    <input type="checkbox" id="terminos_condiciones">
+
+    <label for="entradas" >Tipo de entrada</label>
+    <select name="entradas" id="entradas">
+        <option value="seleccionar">Seleccionar</option>
+        <option value="Junior">Junior</option>
+        <option value="Adulto">Adulto</option>
+        <option value="Ancianos">Ancianos</option>
+        <option value="vip">VIP</option>
+    </select>
+
+    <label for="opciones" >Comida favorita</label>
+    <select name="opciones" id="opciones">
+        <option value="seleccionar">Seleccionar</option>
+        <option value="salchipapa">Salchipapa</option>
+        <option value="bandeja_paisa">Bandeja paisa</option>
+        <option value="Espaguetis_con_arroz">Espaguetis con arroz</option>
+    </select>
+    <button type="submit" >Enviar formulario salchipapero</button>
+
+
+
+   </form>
+   
+
+</body>
+</html>

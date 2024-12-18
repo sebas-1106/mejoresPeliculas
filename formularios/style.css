@@ -1,0 +1,35 @@
+body{
+    background-image: url(./assets/salchipapa.jpg);
+    color: white;
+}
+#Formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+input{
+    margin: 15px 10px;
+    padding: 8px;
+}
+button, input[type="button"]{
+    border-radius: 10px ;
+    background-color: rgb(144, 238, 255);
+    width: 250px;
+}
+#salchipapota{
+    margin-top: 30px;
+}
+#form_salchipapa{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
