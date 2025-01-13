@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Formularios</title>
+</head>
+<body>
+    <h1>Repaso Inicial Formularios</h1>
+    <form action="./index.html" method="get" name="test" id="Formulario">
+
+    <label for="Nombre">Nombre</label>
+    <input type="text" id="Nombre" placeholder="Introduce tu Nombre" required>
+    
+    <label for="email">Correo Electronico</label>
+    <input type="email" id="email" placeholder="Añade tu email" required>
+
+    <label id="satisfaccion">Nivel de satisfacción</label>
+    Muy satisfecho
+    <input type="radio"  name="opcion-multiple" value="Muy-satisfecho">
+    Satisfecho
+    <input type="radio"  name="opcion-multiple" value="Satisfecho">
+    Neutral
+    <input type="radio"  name="opcion-multiple" value="Neutral">
+    Insatisfecho
+    <input type="radio"  name="opcion-multiple" value="Insatisfecho">
+    Muy insatisfecho
+    <input type="radio"  name="opcion-multiple" value="Muy-insatisfecho">
+
+
+    <label id="Intereses">Intereses personales</label>
+    
+    <label>Deporte</label>
+    <input type="checkbox"  name="intereses">
+
+    <label>Tegnologia</label>
+    <input type="checkbox"  name="intereses">
+
+    <label>Arte</label>
+    <input type="checkbox"  name="intereses">
+
+    <label>Musica</label>
+    <input type="checkbox"  name="intereses">
+
+    <textarea id="Comentario" placeholder="Añade un Comentario" minlength="10" maxlength="200"></textarea>
+
+    <button id="button">Enviar formulario</button>
+</form>
+</body>
+</html>

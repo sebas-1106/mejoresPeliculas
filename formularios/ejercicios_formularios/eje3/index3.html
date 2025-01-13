@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Repaso Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Sebas Eat</h1>
+    </header>
+
+    <main>
+        <form action="./index3.html" method="get" name="test" id="Formulario">
+
+        <label for="Nombre-cliente">Nombre</label>
+        <input type="text" id="Nombre-cliente">
+        
+        <label for="Direccion-cliente">Dirección</label>
+        <input type="text" id="Direccion-cliente">
+
+        <fieldset>
+            <legend>Menu Principal</legend>
+            Pizza
+            <input type="checkbox" name="Menu-principal" value="Pizza">
+            Pasta
+            <input type="checkbox" name="Menu-principal" value="Pasta">
+            Salchipapa
+            <input type="checkbox" name="Menu-principal" value="Salchipapa">
+            Bandeja paisa
+            <input type="checkbox" name="Menu-principal" value="Bandeja-paisa">
+            Chuleta valluna
+            <input type="checkbox" name="Menu-principal" value="chuleta-valluna">
+        </fieldset>
+
+        <fieldset>
+            <legend>Entrantes</legend>
+            Bebida
+            <input type="radio" name="Entrantes" value="Bebida">
+            Alitas
+            <input type="radio" name="Entrantes" value="Alitas">
+            Pan
+            <input type="radio" name="Entrantes" value="Pan">
+            Papa rellena
+            <input type="radio" name="Entrantes" value="Papa-rellena">
+        </fieldset>
+
+        <button id="button">Enviar formulario</button>
+        </form>
+    </main>
+</body>
+</html>

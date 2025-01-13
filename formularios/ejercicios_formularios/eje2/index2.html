@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Hotel Prometeo</title>
+</head>
+<body>
+    <header>
+        <h1>Reservas Hotel Prometeo</h1>
+    </header>
+    <main>
+        <form action="./index2.html" method="get" name="test" id="Formulario">
+        <label for="Nombre-huesped">Introduce tu nombre</label>
+        <input type="text" id="Nombre-huesped" required>
+
+        <label for="Fecha-entrada"> Fecha entrada</label>
+        <input type="date"  id="Fecha-entrada" required>
+
+        <label for="Fecha-salida"> Fecha salida</label>
+        <input type="date"  id="Fecha-salida" required>
+        <fieldset>
+        <legend>Tipo de habitacion</legend>
+        Individual
+        <input type="radio" name="Individual" value="Individual">
+        Doble
+        <input type="radio" name="Doble" value="Doble">
+        Suite
+        <input type="radio" name="Suite" value="Suite">
+    </fieldset>
+        <label for="numero-huespedes"> Numero de huespedes</label>
+        <input type="number" id="numero-huespedes" min="1" max="10">
+
+        <label for="terminos_condiciones">Terminos y condiciones</label>
+        <input type="checkbox" id="terminos_condiciones" required>
+
+
+        <button id="button">Enviar formulario</button>
+
+
+    </form>
+    </main>
+</body>
+</html>
