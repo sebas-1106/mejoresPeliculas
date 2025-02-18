@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- validacion de estructura de nuestro xml -->
+
+
+<!DOCTYPE agenda[
+        <!ELEMENT agenda (contacto+)>
+        <!ELEMENT contacto (nombre, correo, telefono)>
+        <!ATTLIST contacto genero CDATA #REQUIRED>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT correo (#PCDATA)>
+        <!ELEMENT telefono (#PCDATA)>
+        <!ELEMENT genero (#PCDATA)>
+        <!ATTLIST telefono prefijo CDATA #REQUIRED>
+        
+]>
+<agenda>
+    <!-- Datos del pancho 1 -->
+    <contacto>
+        <nombre>Johan el pancho</nombre>
+        <correo>panchilandia123@vivanlospanchos.como</correo>
+        <telefono prefijo="+57">613159996</telefono>
+    </contacto>
+    <!-- Datos del pancho 2 -->
+    <contacto>
+        <nombre>Daniel el chamo</nombre>
+        <correo>panchilandia@vivanlospanchos.com</correo>
+        <telefono prefijo="+57">612342</telefono>
+    </contacto>
+    <!-- Datos del pancho 3 -->
+    <contacto>
+        <nombre>Johan vilpancho</nombre>
+        <correo>panchilandia@vivanlospanchos.com</correo>
+        <telefono prefijo="+57">612342</telefono>
+    </contacto>
+</agenda>

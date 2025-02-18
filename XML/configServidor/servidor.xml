@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        
+
+<configuracion_servidor>
+  <!-- Configuración para la base de datos de pruebas-->
+  <base_datos nombre="BD_Pruebas">
+    <usuario>pepe</usuario>
+    <password> <![CDATA[admin1234]]></password>
+    <puerto>1000</puerto>
+    <max_conexiones>1000</max_conexiones>
+    <modo_acceso>remoto</modo_acceso>
+  </base_datos>
+  <backups>
+    <ruta>/var/backup</ruta>
+    <frecuencia>semanal</frecuencia>
+  </backups>
+</configuracion_servidor>

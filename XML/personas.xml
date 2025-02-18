@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<personas>
+    <!-- Mi primo es Carlos -->
+    <nombre longitud="30">Carlos Marin</nombre>
+    <![CDATA[No quiero que se interprete como dato]]>
+</personas>

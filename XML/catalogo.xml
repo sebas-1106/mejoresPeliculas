@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- validacion de estructura de nuestro xml -->
+
+<!DOCTYPE catalogo[
+        <!ELEMENT catalogo (productos+)>
+        <!ELEMENT productos (nombre, precio, descripcion)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+        <!ELEMENT descripcion (#PCDATA)>
+        <!ATTLIST productos categorias CDATA #REQUIRED>
+        <!ATTLIST disponible producto CDATA #REQUIRED>
+]>
+<catalogo>
+    <!-- Datos del producto 1 -->
+    <productos categorias="panchilandia" disponible="true">
+        <nombre>Pedro el pancho</nombre>
+        <precio>11.40</precio>
+        <descripcion>Un pancho muy calvo </descripcion>
+    </productos>
+    <!-- Datos del producto 2 -->
+    <productos categorias="panchilandia" disponible ="true">
+        <nombre>Daniel el chamo</nombre>
+        <precio>23.45</precio>
+        <descripcion> Un chamo muy alto</descripcion>
+    </productos>
+    <!-- Datos del producto 3 -->
+
+    <productos categorias="panchilandia" disponible ="true">
+        <nombre>Johan vilpancho</nombre>
+        <precio>45.90</precio>
+        <descripcion> Un pancho muy negro</descripcion>
+    </productos>
+</catalogo>
